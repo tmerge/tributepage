@@ -1,0 +1,14 @@
+#main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#img-div {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
