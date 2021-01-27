@@ -1,14 +1,28 @@
+/* google font import */
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
+#title {
+    font-size: 42px;
+    font-family: 'Hachi Maru Pop', cursive;
+    align-self: center;
+    padding: 25px;
+}
+
 #main {
-    margin: auto;
+    font-family: 'Bondai Moda', serif;
+    flex-direction: column;
     display: flex;
-    justify-content: center;
     width: 100%;
 }
 #img-div {
-    display: flex;
-    justify-content: center;
+    align-self: center;
 }
 
 img {
     max-width: 100%;
+    border: solid rgb(92, 92, 92) 1px;
+}
+#tribute-info {
+    align-self: center;
 }
