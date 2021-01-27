@@ -17,12 +17,19 @@
 }
 #img-div {
     align-self: center;
+    display: inline;
+}
+#img-caption {
+    padding: 2px;
 }
 
 img {
     max-width: 100%;
-    border: solid rgb(92, 92, 92) 1px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
 }
+
 #tribute-info {
     align-self: center;
 }
